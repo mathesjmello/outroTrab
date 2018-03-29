@@ -6,37 +6,25 @@ using UnityEngine.Networking;
 
 public class Drag : MonoBehaviour {
 	public GameObject dedoobjectPrefab;
-	public GameObject Personagem;
-	public GameObject tutorial;
-	public Vector2 vel;
-	public float divizor;
-	public bool invert;
-	public float grav;
-	GameObject[] dedoobject;
-	// Use this for initialization
-	void Start ()
-	{
-		Personagem.GetComponent<Rigidbody2D>().velocity = vel;
 	
-	}
-	
-	// Update is called once per frame
+
 	void Update ()
 	{
-		Personagem.GetComponent<Rigidbody2D>().gravityScale = grav;
-		if (Input.GetButtonDown("Fire1"))
+		
+		#if UNITY_EDITOR
+		if (Input.GetMouseButtonUp(0))
 		{
-			
-			tutorial.SetActive(false);
-			grav=grav*-1;
+			dedoobjectPrefab.transform.DetachChildren();
 		}
-		if (invert) {
-			vel=new Vector2(-2,Personagem.GetComponent<Rigidbody2D>().gravityScale/divizor);
-			Personagem.GetComponent<Rigidbody2D> ().velocity=vel;
-			return;
-		}
-		if (Personagem.GetComponent<Rigidbody2D> ().velocity.x < 0.5f) {
-			Personagem.GetComponent<Rigidbody2D> ().velocity = vel;
-		} 
+		dedoobjectPrefab.transform.position = Vector3.right * 100;		
+		if (Input.GetMouseButton(0))
+			dedoobjectPrefab.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + Vector3.forward+ new Vector3(0,0,9);
+		#endif
+		
+		#if UNITY_ANDROID
+		if(Input.touchCount!=1)
+			dedoobjectPrefab.transform.DetachChildren();
+		dedoobjectPrefab.transform.position= Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position) + Vector3.forward+ new Vector3(0,0,9);
+		#endif
 	}
 }

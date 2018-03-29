@@ -286,10 +286,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae55f110966b4fa4280bf64da4f5c17f, type: 3}
+  m_Sprite: {fileID: 21300020, guid: 3128562c3c59fd947940bd0c5943c5de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 1
   m_Size: {x: 9.87, y: 0.4}
   m_AdaptiveModeThreshold: 1
@@ -340,13 +340,13 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 120
+  m_FontSize: 205
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: a7489fddbb06aad48bf9cce5d7a71b5d, type: 3}
+  m_Font: {fileID: 12800000, guid: ceceee018d87a9c469876c497f9e0739, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4279288032
+    rgba: 4292894480
 --- !u!23 &1767029931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -360,7 +360,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a7489fddbb06aad48bf9cce5d7a71b5d, type: 3}
+  - {fileID: 2100000, guid: ceceee018d87a9c469876c497f9e0739, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

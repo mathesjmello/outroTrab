@@ -9,7 +9,6 @@ public class Star : MonoBehaviour {
 	{
 		if (other.gameObject.tag.Equals("Player"))
 		{
-			Control.GetComponent<Drag> ().invert=true;
 		}
 	}
 }

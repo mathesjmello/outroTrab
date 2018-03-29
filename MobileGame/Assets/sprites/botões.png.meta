@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: 3128562c3c59fd947940bd0c5943c5de
-timeCreated: 1522287551
+timeCreated: 1522289831
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: "bot\xF5es_0"
+    21300002: "bot\xF5es_1"
+    21300004: "bot\xF5es_2"
+    21300006: "bot\xF5es_3"
+    21300008: "bot\xF5es_4"
+    21300010: "bot\xF5es_5"
+    21300012: "bot\xF5es_6"
+    21300014: "bot\xF5es_7"
+    21300016: "bot\xF5es_8"
+    21300018: "bot\xF5es_9"
+    21300020: "bot\xF5es_10"
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -39,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,9 +74,179 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "bot\xF5es_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 117
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_1"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 111
+        width: 118
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_2"
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 114
+        width: 118
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_3"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 112
+        width: 119
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 8, z: 13, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_4"
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 114
+        width: 115
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_6"
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 117
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_7"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_8"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 3
+        width: 115
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_9"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2
+        width: 118
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "bot\xF5es_10"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 168
+        width: 82
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
