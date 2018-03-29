@@ -116,13 +116,13 @@
       <file leaf-file-name="Impact.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Impact.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding>
-                <marker date="1522347606085" expanded="false" signature="6:78" ph="..." />
-                <marker date="1522347606085" expanded="true" signature="116:452" ph="{...}" />
-                <marker date="1522347606085" expanded="true" signature="212:289" ph="{...}" />
-                <marker date="1522347606085" expanded="true" signature="331:450" ph="{...}" />
+                <marker date="1522360512999" expanded="false" signature="6:78" ph="..." />
+                <marker date="1522360512999" expanded="true" signature="116:452" ph="{...}" />
+                <marker date="1522360512999" expanded="true" signature="212:289" ph="{...}" />
+                <marker date="1522360512999" expanded="true" signature="331:450" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -174,6 +174,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Bombs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Goal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Drag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Impact.cs" />
       </list>
     </option>
   </component>
@@ -262,12 +263,12 @@
       <workItem from="1522323486146" duration="1389000" />
       <workItem from="1522324935603" duration="2117000" />
       <workItem from="1522334652410" duration="1192000" />
-      <workItem from="1522349798174" duration="1813000" />
+      <workItem from="1522349798174" duration="2418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29378000" />
+    <option name="totallyTimeSpent" value="29983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,13 +713,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Impact.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
-            <marker date="1522347606085" expanded="false" signature="6:78" ph="..." />
-            <marker date="1522347606085" expanded="true" signature="116:452" ph="{...}" />
-            <marker date="1522347606085" expanded="true" signature="212:289" ph="{...}" />
-            <marker date="1522347606085" expanded="true" signature="331:450" ph="{...}" />
+            <marker date="1522360512999" expanded="false" signature="6:78" ph="..." />
+            <marker date="1522360512999" expanded="true" signature="116:452" ph="{...}" />
+            <marker date="1522360512999" expanded="true" signature="212:289" ph="{...}" />
+            <marker date="1522360512999" expanded="true" signature="331:450" ph="{...}" />
           </folding>
         </state>
       </provider>

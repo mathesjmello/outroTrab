@@ -15,7 +15,7 @@ public class Impact : MonoBehaviour {
 		
 		if(col.rigidbody)
 			
-			col.rigidbody.AddForce(deltapos*10,ForceMode2D.Impulse);
+			col.rigidbody.AddForce(deltapos*50,ForceMode2D.Impulse);
 
 		deltapos = Vector3.zero;
 	}
