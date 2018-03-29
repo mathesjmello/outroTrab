@@ -11,7 +11,16 @@ public class Bombs : MonoBehaviour
 		if (other.gameObject.tag.Equals("Player"))
 		{
 			SFX.Play();
-			MyLoading.Reset(ThisLevel);
+			other.gameObject.SetActive(false);
+			Invoke("Carrega",2);
+			
 		}
+	}
+
+	void Carrega()
+	{
+		
+		MyLoading.Reset(ThisLevel);
+		
 	}
 }
