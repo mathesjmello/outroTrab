@@ -28,9 +28,11 @@ public class Drag : MonoBehaviour {
 		
 	#if UNITY_EDITOR
 		if (Input.GetMouseButton(0))
+		dedoObjects[0].transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition)+Vector3.forward;
 		
-		dedoObjects[0].transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition)+Vector3.forward;		
 	#endif
+		
+		
 		for (int i = 0; i < Input.touches.Length; i++)
 		{
 			dedoObjects[i].transform.position = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position) + Vector3.forward;
