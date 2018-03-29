@@ -694,7 +694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c951b45e4c7d751418382145ace439c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dedoobjectPrefab: {fileID: 1956108717}
+  dedoobjectPrefab: {fileID: 1545118704556030, guid: b7db8e065928a4a45ba6946be9a7758e,
+    type: 2}
 --- !u!4 &1072696477
 Transform:
   m_ObjectHideFlags: 0
@@ -1192,11 +1193,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d7c2d0a3866b2b469b3e0569f376bba, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1956108717 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1545118704556030, guid: b7db8e065928a4a45ba6946be9a7758e,
-    type: 2}
-  m_PrefabInternal: {fileID: 403860725}
 --- !u!1001 &2057050171
 Prefab:
   m_ObjectHideFlags: 0
