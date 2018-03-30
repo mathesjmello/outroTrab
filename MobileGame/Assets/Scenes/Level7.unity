@@ -2706,6 +2706,16 @@ Prefab:
       propertyPath: m_Name
       value: tabuaComSerra (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114649289560002968, guid: 4afd1b3299a5fed43af396b982b04b48,
+        type: 2}
+      propertyPath: ThisLevel
+      value: Level7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114649289560002968, guid: 4afd1b3299a5fed43af396b982b04b48,
+        type: 2}
+      propertyPath: SFX
+      value: 
+      objectReference: {fileID: 1696622346}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4afd1b3299a5fed43af396b982b04b48, type: 2}
   m_IsPrefabParent: 0
